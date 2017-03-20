@@ -3,7 +3,7 @@ package choongyul.android.com.remoteretrofit.domain;
 /**
  * Created by myPC on 2017-03-07.
  */
-
+// json 컨버터로 만든 java파일임.
 // 가져온 json 데이터의 최상단
 public class Data {
     private SearchParkingInfo SearchParkingInfo;

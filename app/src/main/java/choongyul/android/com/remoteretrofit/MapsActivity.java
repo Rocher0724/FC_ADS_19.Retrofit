@@ -28,6 +28,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+
     Spinner spinner;
     String gooArray[];
     private GoogleMap mMap;
@@ -49,7 +50,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         spinner = (Spinner) findViewById(R.id.spinner);
         // 스피너 데이터를 adapter를 사용하여 등록한다.
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, gooArray);
-        //                                                      ^ 컨텍스트      ^스피너에서 사용할 레이아웃    ,       ^ 배열데이터
+        //                                                   ^ 컨텍스트      ^스피너에서 사용할 레이아웃    ,       ^ 배열데이터
         // 3.2 스피너에 아답터 등록
         spinner.setAdapter(adapter);
         // 3.3 스피너 리스너에 등록

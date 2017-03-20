@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by myPC on 2017-03-07.
  */
-
+// json 컨버터로 만든 java파일임.
 // 가져온 data의 둘째단
 public class SearchParkingInfo {
     private RESULT RESULT;

@@ -3,6 +3,7 @@ package choongyul.android.com.remoteretrofit.domain;
 /**
  * Created by myPC on 2017-03-07.
  */
+// json 컨버터로 만든 java파일임.
 
 public class Row {
     private String OPERATION_RULE_NM;
